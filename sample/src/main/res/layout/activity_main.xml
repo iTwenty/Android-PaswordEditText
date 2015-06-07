@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.itwenty.passwordedittext.PasswordEditText
+        android:id="@+id/numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Custom without peek"
+        android:inputType="numberPassword"
+        app:passwordShown="@android:drawable/star_big_on"
+        app:passwordHidden="@android:drawable/star_big_off"
+        app:passwordPeek="false"/>
+
+    <View
+        android:id="@+id/spacer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/numberPassword"/>
+
+    <com.github.itwenty.passwordedittext.PasswordEditText
+        android:id="@+id/textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spacer"
+        android:hint="Default with peek"
+        android:inputType="textPassword"
+        style="@style/PasswordEditTextStyle"/>
+
+</RelativeLayout>

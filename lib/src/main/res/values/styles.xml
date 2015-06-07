@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PasswordEditTextStyle">
+        <item name="passwordHidden">@drawable/password_hidden</item>
+        <item name="passwordShown">@drawable/password_shown</item>
+    </style>
+</resources>

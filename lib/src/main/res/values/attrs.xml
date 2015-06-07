@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="PasswordEditTextStyle" format="reference"/>
+
+    <declare-styleable name="PasswordEditText">
+        <attr name="passwordHidden" format="reference"/>
+        <attr name="passwordShown" format="reference"/>
+        <attr name="passwordPeek" format="boolean"/>
+    </declare-styleable>
+
+</resources>
