@@ -24,6 +24,15 @@ Usage
         app:passwordHidden="@android:drawable/star_big_off"
         app:passwordPeek="false"/>
 
+Including in your project
+-------------------------
+
+    dependencies {
+        ...
+        compile 'com.github.itwenty:passwordedittext:1.0.0'
+        ...
+    }
+
 License
 -------
 
